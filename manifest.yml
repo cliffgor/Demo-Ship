@@ -1,0 +1,15 @@
+modules:
+  jira:issuePanel:
+    - key: demoship-hello-world-panel
+      function: main
+      title: Forge app for demoship
+      icon: https://developer.atlassian.com/platform/forge/images/icons/issue-panel-icon.svg
+  function:
+    - key: main
+      handler: index.run
+app:
+  id: ari:cloud:ecosystem::app/068ae016-4898-4472-a488-f647b6bd03f9
+
+permissions:
+  scopes:
+    - read:jira-work
